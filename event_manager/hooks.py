@@ -137,12 +137,13 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-doc_events = {
- 	"Attendee": {
- 		"before_insert": "event_manager.event_manager.doctype.attendee.notification.sendEmail",
- 		"after_delete": "method"
- 	}
- }
+#doc_events = {
+# 	"Attendee": {
+# 		"before_insert": "event_manager.api.sendEmail",
+
+# 		"after_delete": "method"
+# 	}
+# }
 
 # Scheduled Tasks
 # ---------------

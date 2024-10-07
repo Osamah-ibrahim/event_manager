@@ -6,9 +6,6 @@ avent_attendees: function(frm) {
     frm.call({
         doc: frm.doc,
         method: 'frm_call' ,
-        args: {
-            msg: "Hello"
-        },
         freeze: true,
         freeze_message: __('calling frm_call Method'),
         callback: function(r) {

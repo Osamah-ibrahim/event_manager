@@ -46,8 +46,13 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-10-05 14:37:31.861665",
+ "links": [
+  {
+   "link_doctype": "Events",
+   "link_fieldname": "event_name"
+  }
+ ],
+ "modified": "2024-10-07 14:28:48.069496",
  "modified_by": "Administrator",
  "module": "Event Manager",
  "name": "Attendee",
